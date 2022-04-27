@@ -4,7 +4,7 @@ const data = [
     {
         id: 1,
         title: "Free",
-        price: "0",
+        price: "0$",
         users: "Single User",
         storage: "5 GB Storage",
         public_projects: "Unlimited Public Projects",
@@ -17,7 +17,7 @@ const data = [
       {
         id: 2,
         title: "Plus",
-        price: "9",
+        price: "9$",
         users: "5 Users",
         storage: "50 GB Storage",
         public_projects: "Unlimited Public Projects",
@@ -30,7 +30,7 @@ const data = [
       {
         id: 3,
         title: "Pro",
-        price: "49",
+        price: "49$",
         users: "Unlimited User",
         storage: "150 GB Storage",
         public_projects: "Unlimited Public Projects",

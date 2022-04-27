@@ -11,20 +11,20 @@ function App() {
         <div className="row">
           {data.map((item) => {
             return (
-              <div className="col-lg-4" key={item.id}>
-                <Card
-                  title={item.title}
-                  price={item.price}
-                  users={item.users}
-                  storage={item.storage}
-                  public_projects={item.public_projects}
-                  access={item.access}
-                  private_projects={item.private_projects}
-                  phone_support={item.phone_support}
-                  subdomain={item.subdomain}
-                  status_report={item.status_report} />
 
-              </div>
+              <Card
+                id={item.id}
+                title={item.title}
+                price={item.price}
+                users={item.users}
+                storage={item.storage}
+                public_projects={item.public_projects}
+                access={item.access}
+                private_projects={item.private_projects}
+                phone_support={item.phone_support}
+                subdomain={item.subdomain}
+                status_report={item.status_report} />
+                
             );
           })}
 

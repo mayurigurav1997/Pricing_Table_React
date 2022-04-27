@@ -6,6 +6,6 @@ export default function Button() {
             <div className="d-grid">
                 <a href="/" className="btn btn-primary text-uppercase">Button</a>
             </div>
-      
+       
     )
 }
